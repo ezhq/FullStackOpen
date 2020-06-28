@@ -1,0 +1,11 @@
+title Single Page App
+
+note over browser:
+create new note data
+push in notes
+redraw notes
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: {"message":"note created"}
+
